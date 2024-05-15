@@ -6,10 +6,17 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f5deb3; /* Tan background */
+  font-family: 'Roboto', sans-serif; /* Use Roboto font */
 }
 
 .container {
   text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .main-button {
