@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #f5deb3; /* Tan background */
 }
 
 .container {
@@ -13,17 +13,17 @@ body {
 }
 
 .main-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
+  padding: 15px 30px; /* Increased padding */
+  font-size: 18px; /* Increased font size */
+  background-color: #ffc0cb; /* Light pink button */
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px; /* Increased border radius */
   cursor: pointer;
   transition: background-color 0.3s ease;
-  display: inline-block; /* Added */
+  display: inline-block; 
 }
 
 .main-button:hover {
-  background-color: #0056b3;
+  background-color: #ff69b4; /* Lighter pink on hover */
 }
